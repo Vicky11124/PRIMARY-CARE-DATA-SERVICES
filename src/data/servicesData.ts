@@ -891,6 +891,174 @@ export const servicesData: Record<string, ServicePageData> = {
     ctaHeading: "Ready to Elevate Your Healthcare Operations & Compliance?",
     ctaSubtitle: "Speak directly with our healthcare governance and practice management advisors.",
   },
+
+  "medical-records": {
+    slug: "medical-records",
+    name: "Summarising & Digitisation of Medical Records",
+    category: "Healthcare Support",
+    eyebrow: "RECORDS DIGITISATION & SUMMARISING",
+    heroHeadline: "Secure Medical Record Summarising &",
+    heroHeadlineHighlight: "Lloyd George Digitisation.",
+    heroDescription:
+      "Transform historical paper Lloyd George files and clinic notes into structured, accurate, and 100% searchable digital records with standardised SNOMED CT clinical coding and seamless EMIS Web & SystmOne integration.",
+    heroImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80",
+    heroPreviewBadge: "NHS / CQC Aligned",
+    heroPreviewTitle: "BS 10008 Compliant Scanning & Clinical Summaries",
+    heroStrip: [
+      {
+        title: "Lloyd George Scanning",
+        subtitle: "High-Resolution OCR Digitisation",
+        icon: "M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2",
+      },
+      {
+        title: "Clinical Summarising",
+        subtitle: "Key History, Allergies & Problems",
+        icon: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4",
+      },
+      {
+        title: "SNOMED CT Coding",
+        subtitle: "Accurate Clinical Taxonomy",
+        icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
+      },
+      {
+        title: "Caldicott & GDPR",
+        subtitle: "100% Secure Chain of Custody",
+        icon: "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z",
+      },
+    ],
+    includedTitle: "Complete Medical Record Digitisation & Summarising Services.",
+    includedDescription:
+      "We eliminate paper record backlogs, reclaim practice floor space, and equip clinicians with instantly searchable, accurately summarised electronic patient histories.",
+    includedFeatures: [
+      {
+        title: "Lloyd George Paper Scanning",
+        description: "BS 10008 compliant, non-destructive high-speed scanning with automated OCR text recognition.",
+        icon: "M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2",
+      },
+      {
+        title: "Clinical Record Summarising",
+        description: "Experienced medical summarisers extract major medical histories, active problems, and chronic conditions.",
+        icon: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4",
+      },
+      {
+        title: "SNOMED CT & Read Coding",
+        description: "Precise clinical taxonomy tagging ensuring seamless QOF reporting, audits, and searchability.",
+        icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
+      },
+      {
+        title: "EMIS Web & SystmOne Ingestion",
+        description: "Direct, secure electronic upload and attachment into your primary clinical management system.",
+        icon: "M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4",
+      },
+      {
+        title: "Confidential Storage & Shredding",
+        description: "Tracked off-site secure storage or certified eco-friendly confidential destruction post-digitisation.",
+        icon: "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16",
+      },
+      {
+        title: "Information Governance & DSPT",
+        description: "Strict alignment with NHS Information Governance, Caldicott Principles, and Data Security Protection Toolkit.",
+        icon: "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z",
+      },
+    ],
+    overviewHeading: "Accurate Summaries That",
+    overviewHeadingHighlight: "Transform Clinical Efficiency.",
+    overviewDescription:
+      "Searching through bulky, deteriorating Lloyd George paper envelopes wastes valuable clinical minutes and risks missing vital patient history. Our specialised medical summarising and digitisation team converts your entire records library into clean, coded, and instantly searchable electronic health records.",
+    overviewImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
+    overviewBenefits: [
+      "Instantly retrieve complete patient medical histories during live consultations",
+      "Reclaim hundreds of square feet of valuable practice floor space",
+      "Ensure 100% SNOMED CT coding accuracy for QOF points and clinical audits",
+      "Secure, tracked chain of custody compliant with BS 10008 legal admissibility",
+    ],
+    processEyebrow: "OUR PROCESS",
+    processHeading: "A Secure 5-Stage Digitisation Workflow.",
+    processSteps: [
+      {
+        step: "01",
+        title: "Audit & Inventory",
+        description: "Assess paper archive volume, condition, and target clinical software requirements.",
+      },
+      {
+        step: "02",
+        title: "Secure Collection",
+        description: "Barcoded, tracked, and tamper-evident transit to our high-security digitisation facility.",
+      },
+      {
+        step: "03",
+        title: "High-Resolution OCR Scanning",
+        description: "BS 10008 compliant scanning with automated multi-page OCR text indexing.",
+      },
+      {
+        step: "04",
+        title: "Clinical Summarising & Coding",
+        description: "Trained summarisers review histories and assign standardized SNOMED CT codes.",
+      },
+      {
+        step: "05",
+        title: "EHR Ingestion & Verification",
+        description: "Direct batch upload into EMIS Web / SystmOne with 100% clinical QA verification.",
+      },
+    ],
+    toolsHeading: "Clinical Systems & Standards.",
+    tools: [
+      { name: "EMIS Web", badge: "Primary Care" },
+      { name: "TPP SystmOne", badge: "EHR Platform" },
+      { name: "Docman 10", badge: "EDM Integration" },
+      { name: "SNOMED CT", badge: "Clinical Codes" },
+      { name: "BS 10008", badge: "Legal Standard" },
+      { name: "DSPT Toolkit", badge: "Governance" },
+    ],
+    caseStudies: [
+      {
+        tag: "Primary Care Network",
+        title: "Digitisation & Summarising of 38,000 Lloyd George Records",
+        image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80",
+        metric1: { value: "38,000+", label: "Records Digitised" },
+        metric2: { value: "Zero", label: "Paper Backlog" },
+      },
+      {
+        tag: "GP Practice Group",
+        title: "Historical Clinical Coding & Backlog Clearance Sprint",
+        image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=80",
+        metric1: { value: "100%", label: "SNOMED Coded" },
+        metric2: { value: "+18%", label: "QOF Achievement" },
+      },
+      {
+        tag: "Specialist Clinic",
+        title: "Physical File Archival & Floor Space Reclamation",
+        image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80",
+        metric1: { value: "450 sq ft", label: "Space Reclaimed" },
+        metric2: { value: "< 5 sec", label: "File Retrieval" },
+      },
+    ],
+    faqs: [
+      {
+        question: "What is included in medical record summarising?",
+        answer:
+          "Our certified summarisers review past Lloyd George files to extract critical past medical history, major operations, chronic illness diagnoses, ongoing medications, drug allergies, immunisations, and family history into standardized electronic summaries.",
+      },
+      {
+        question: "Are digitised files legally admissible in the UK?",
+        answer:
+          "Yes. Our scanning process complies strictly with British Standard BS 10008 (Evidential Weight and Legal Admissibility of Electronic Information), ensuring digital copies carry full legal validity.",
+      },
+      {
+        question: "How do you integrate records with EMIS Web or SystmOne?",
+        answer:
+          "We format and import digitised documents and coded summaries directly into your clinical system via standard protocols or document management systems like Docman, ensuring patient matching with NHS numbers.",
+      },
+      {
+        question: "How is patient confidentiality maintained during transit and processing?",
+        answer:
+          "All files are moved in GPS-tracked, secure transport vehicles with full chain-of-custody tracking. Our staff are enhanced DBS checked, Caldicott trained, and process records in biometric-controlled UK facilities.",
+      },
+    ],
+    ctaEyebrow: "LET'S DIGITISE YOUR RECORDS",
+    ctaHeading: "Ready to Clear Your Records Backlog & Go Paperless?",
+    ctaSubtitle: "Contact our healthcare records team today for a free consultation and project scope.",
+  },
 };
 
 // Helper to generate dynamic fallback data for any service slug not explicitly in dictionary

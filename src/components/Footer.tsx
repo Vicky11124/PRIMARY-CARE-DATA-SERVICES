@@ -14,10 +14,21 @@ export default function Footer() {
           <div className="md:col-span-4 flex flex-col items-start">
             <Link
               href="/"
-              className="flex items-center gap-2.5 font-bold tracking-[0.22em] text-sm uppercase text-white mb-4"
+              className="flex items-center gap-3.5 group mb-5"
             >
-              <span className="w-2.5 h-2.5 bg-blue-600 rounded-sm inline-block shadow-[0_0_12px_rgba(37,99,235,0.8)]" />
-              <span>PRIMARY CARE DATA SERVICES</span>
+              <img
+                src="/images/logo-emblem.png"
+                alt="Primary Care Data Services"
+                className="h-10 w-auto object-contain drop-shadow-[0_0_15px_rgba(0,229,255,0.4)] group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="flex flex-col">
+                <span className="font-bold tracking-[0.16em] text-sm md:text-base uppercase text-white leading-tight">
+                  PRIMARY CARE DATA SERVICES
+                </span>
+                <span className="text-[9px] font-mono tracking-widest text-[#00E5FF]/80 uppercase mt-0.5">
+                  DATA • SUPPORT • AUTOMATION • SCALE
+                </span>
+              </div>
             </Link>
 
             <p className="text-sm text-slate-400 max-w-sm leading-relaxed mb-6">
@@ -57,7 +68,7 @@ export default function Footer() {
           </div>
 
           {/* Links & Contact Columns */}
-          <div className="md:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <div className="md:col-span-8 grid grid-cols-2 sm:grid-cols-3 gap-6 sm:gap-8">
             {/* Column 1: Services */}
             <div>
               <h4 className="text-white text-xs font-bold uppercase tracking-wider mb-4">
@@ -126,12 +137,13 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Column 3: Contact & Address (Replaced Resources) */}
+            {/* Column 3: Contact (Address commented out for now, preserved for future use) */}
             <div>
               <h4 className="text-white text-xs font-bold uppercase tracking-wider mb-4">
-                Contact & Office
+                Contact & Support
               </h4>
               <div className="space-y-4 text-sm">
+                {/* Physical address preserved for future reference:
                 <div>
                   <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">
                     Address
@@ -141,6 +153,7 @@ export default function Footer() {
                     CR0 2EN
                   </p>
                 </div>
+                */}
 
                 <div>
                   <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">
@@ -151,6 +164,20 @@ export default function Footer() {
                     className="text-white hover:text-[#00E5FF] font-bold text-sm transition-colors inline-flex items-center gap-1.5"
                   >
                     <span>{CONTACT_CONFIG.phoneNumber}</span>
+                  </a>
+                </div>
+
+                <div>
+                  <div className="text-xs text-slate-500 uppercase tracking-wider mb-1">
+                    WhatsApp Support
+                  </div>
+                  <a
+                    href={`https://wa.me/${CONTACT_CONFIG.whatsappNumber}?text=${encodeURIComponent(`Hello ${CONTACT_CONFIG.companyName}, I would like to enquire about your services.`)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#25D366] hover:text-[#20bd5a] font-bold text-sm transition-colors inline-flex items-center gap-1.5"
+                  >
+                    <span>{CONTACT_CONFIG.whatsappFormatted}</span>
                   </a>
                 </div>
 

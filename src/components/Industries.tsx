@@ -60,14 +60,14 @@ export default function Industries() {
         </div>
 
         {/* 8-Card 2x4 Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
           {industries.map((ind, idx) => (
             <Link
               key={idx}
               href={ind.href}
-              className="group bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col"
+              className="group bg-white border border-slate-200 rounded-xl sm:rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col"
             >
-              <div className="relative h-36 sm:h-44 w-full overflow-hidden bg-slate-100">
+              <div className="relative h-28 xs:h-32 sm:h-44 w-full overflow-hidden bg-slate-100">
                 <img
                   src={ind.image}
                   alt={ind.name}
@@ -77,12 +77,12 @@ export default function Industries() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
               </div>
 
-              <div className="p-4 sm:p-5 flex items-center justify-between bg-white">
-                <span className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+              <div className="p-3 sm:p-5 flex items-center justify-between bg-white gap-1">
+                <span className="text-xs xs:text-sm sm:text-base font-bold text-slate-900 group-hover:text-blue-600 transition-colors leading-tight">
                   {ind.name}
                 </span>
-                <span className="w-8 h-8 rounded-full bg-slate-50 group-hover:bg-blue-600 text-slate-400 group-hover:text-white flex items-center justify-center transition-all">
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <span className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-slate-50 group-hover:bg-blue-600 text-slate-400 group-hover:text-white flex items-center justify-center transition-all shrink-0">
+                  <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
                 </span>

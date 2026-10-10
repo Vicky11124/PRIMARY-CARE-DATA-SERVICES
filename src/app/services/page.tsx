@@ -18,14 +18,14 @@ type Service = {
 };
 
 const servicesData: Service[] = [
-  // 1. BUSINESS SUPPORT
+  // 1. PRACTICE MANAGEMENT (Healthcare Support)
   {
-    id: "bm",
-    category: "Business Support",
-    categoryKey: "business",
-    title: "Business Management",
-    description: "Strategic support for day-to-day operations and long-term growth.",
-    slug: "business-management",
+    id: "prac",
+    category: "Healthcare Support",
+    categoryKey: "healthcare",
+    title: "Practice Management",
+    description: "Operational support for GP practices, dental clinics and healthcare providers.",
+    slug: "practice-management",
     iconPath: "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4",
   },
   {
@@ -65,14 +65,14 @@ const servicesData: Service[] = [
     iconPath: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01",
   },
 
-  // 2. HEALTHCARE SUPPORT
+  // 2. BUSINESS MANAGEMENT (Business Support)
   {
-    id: "prac",
-    category: "Healthcare Support",
-    categoryKey: "healthcare",
-    title: "Practice Management",
-    description: "Operational support for GP practices, dental clinics and healthcare providers.",
-    slug: "practice-management",
+    id: "bm",
+    category: "Business Support",
+    categoryKey: "business",
+    title: "Business Management",
+    description: "Strategic support for day-to-day operations and long-term growth.",
+    slug: "business-management",
     iconPath: "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4",
   },
   {
@@ -97,8 +97,8 @@ const servicesData: Service[] = [
     id: "mr",
     category: "Healthcare Support",
     categoryKey: "healthcare",
-    title: "Medical Records",
-    description: "Secure record digitisation, summaries, Lloyd George scanning and clinical coding.",
+    title: "Summarising & Digitisation of Records",
+    description: "Expert Lloyd George paper file scanning, electronic medical record summarising, clinical coding, and seamless EMIS/SystmOne integration.",
     slug: "medical-records",
     iconPath: "M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2",
   },

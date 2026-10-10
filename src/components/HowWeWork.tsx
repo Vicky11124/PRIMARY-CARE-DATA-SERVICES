@@ -43,11 +43,11 @@ export default function HowWeWork() {
         </div>
 
         {/* 5-Step Process Timeline */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 relative">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5 sm:gap-6 relative">
           {steps.map((step, idx) => (
             <div
               key={idx}
-              className="p-6 bg-slate-50/70 border border-slate-200 rounded-2xl relative flex flex-col justify-between hover:bg-white hover:border-blue-400 hover:shadow-lg transition-all duration-200 group"
+              className="p-4 sm:p-6 bg-slate-50/70 border border-slate-200 rounded-2xl relative flex flex-col justify-between hover:bg-white hover:border-blue-400 hover:shadow-lg transition-all duration-200 group"
             >
               <div>
                 <div className="flex items-center justify-between mb-4">

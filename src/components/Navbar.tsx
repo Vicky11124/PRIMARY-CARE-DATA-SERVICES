@@ -41,22 +41,28 @@ export default function Navbar({ variant = "dark" }: { variant?: "dark" | "light
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        className={`sticky top-0 z-50 transition-all duration-300 ${
           scrolled
-            ? "bg-[#080E1E]/90 backdrop-blur-md border-b border-white/10 py-3.5 shadow-lg shadow-black/20"
+            ? isDark
+              ? "bg-[#080E1E] border-b border-white/10 py-3.5 shadow-lg shadow-black/20"
+              : "bg-white/95 backdrop-blur-md border-b border-slate-200 py-3.5 shadow-sm"
             : isDark
-            ? "bg-transparent border-b border-white/10 py-5"
-            : "bg-white/90 backdrop-blur-md border-b border-slate-200 py-3.5 shadow-sm"
+            ? "bg-[#080E1E] border-b border-white/10 py-5"
+            : "bg-white border-b border-slate-200 py-5 shadow-sm"
         }`}
       >
         <div className="container-custom flex items-center justify-between">
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center gap-2.5 font-bold tracking-[0.22em] text-sm md:text-base uppercase group"
+            className="flex items-center gap-2 sm:gap-3 font-bold tracking-[0.08em] sm:tracking-[0.16em] text-xs sm:text-sm md:text-base uppercase group min-w-0 shrink"
           >
-            <span className="w-2.5 h-2.5 bg-blue-600 rounded-sm inline-block group-hover:scale-110 transition-transform shadow-[0_0_12px_rgba(37,99,235,0.8)]" />
-            <span className={isDark || scrolled ? "text-white" : "text-slate-900"}>
+            <img
+              src="/images/logo-emblem.png"
+              alt="Primary Care Data Services"
+              className="h-7 sm:h-9 w-auto object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-[0_0_12px_rgba(0,229,255,0.35)] shrink-0"
+            />
+            <span className={`truncate max-w-[170px] xs:max-w-[240px] sm:max-w-none ${isDark || scrolled ? "text-white" : "text-slate-900"}`}>
               PRIMARY CARE DATA SERVICES
             </span>
           </Link>
@@ -116,7 +122,7 @@ export default function Navbar({ variant = "dark" }: { variant?: "dark" | "light
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="fixed inset-0 z-40 bg-[#080E1E] text-white pt-24 px-6 pb-10 flex flex-col justify-between md:hidden animate-in fade-in duration-200">
+        <div className="fixed inset-0 z-40 bg-[#080E1E] text-white pt-24 px-6 pb-10 flex flex-col justify-between md:hidden animate-in fade-in duration-200 overflow-y-auto">
           <div className="flex flex-col gap-4">
             {links.map((link) => (
               <Link

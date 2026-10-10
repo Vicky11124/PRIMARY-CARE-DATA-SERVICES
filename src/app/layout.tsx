@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Primary Care Data Services | Healthcare, Technology, Business & Growth",
   description: "One partner for healthcare support, technology, business management, digital growth, and virtual assistance across the UK.",
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: "/favicon.png", apple: "/favicon.png" },
 };
 
 export const viewport: Viewport = {
@@ -14,6 +14,7 @@ export const viewport: Viewport = {
 };
 
 import { ContactModalProvider } from "@/context/ContactModalContext";
+import WhatsAppCTC from "@/components/WhatsAppCTC";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -28,7 +29,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="antialiased bg-[#F8FAFC] text-[#0F172A] selection:bg-[#2563EB] selection:text-white">
-        <ContactModalProvider>{children}</ContactModalProvider>
+        <ContactModalProvider>
+          {children}
+          <WhatsAppCTC />
+        </ContactModalProvider>
       </body>
     </html>
   );

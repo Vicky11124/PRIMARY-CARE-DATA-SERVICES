@@ -45,13 +45,13 @@ export default function WhyUs() {
           {advantages.map((item, idx) => (
             <div
               key={idx}
-              className="p-8 bg-white border border-slate-200 rounded-2xl shadow-sm hover:border-blue-400 hover:shadow-lg transition-all duration-200 group"
+              className="p-5 sm:p-8 bg-white border border-slate-200 rounded-2xl shadow-sm hover:border-blue-400 hover:shadow-lg transition-all duration-200 group"
             >
-              <div className="w-8 h-1 bg-blue-600 rounded-full mb-6 group-hover:w-12 transition-all duration-300" />
-              <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
+              <div className="w-8 h-1 bg-blue-600 rounded-full mb-4 sm:mb-6 group-hover:w-12 transition-all duration-300" />
+              <h3 className="text-base sm:text-lg font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
                 {item.title}
               </h3>
-              <p className="text-sm text-slate-600 leading-relaxed">
+              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
                 {item.description}
               </p>
             </div>

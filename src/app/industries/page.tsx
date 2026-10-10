@@ -15,11 +15,11 @@ const industryList = [
     name: "Healthcare & Primary Care",
     tag: "REGULATED SECTOR",
     description:
-      "Comprehensive practice management, CQC compliance frameworks, clinical governance support, and medical records digitisation.",
+      "Comprehensive practice management, CQC compliance frameworks, clinical governance support, and medical records summarising & digitisation.",
     highlights: [
       "CQC audit preparation & evidence management",
       "EMIS & SystmOne workflow streamlining",
-      "Medical records digitisation & archiving",
+      "Medical records summarising & Lloyd George digitisation",
       "Dedicated clinical administration support",
     ],
     image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",

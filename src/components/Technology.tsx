@@ -94,16 +94,18 @@ export default function Technology() {
             {/* Background Glow */}
             <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 rounded-3xl blur-2xl pointer-events-none" />
 
-            <div className="relative bg-[#0F172A] border border-slate-800 rounded-2xl p-6 shadow-2xl text-white">
+            <div className="relative bg-[#0F172A] border border-slate-800 rounded-2xl p-4 sm:p-6 shadow-2xl text-white">
               {/* Header bar */}
-              <div className="flex items-center justify-between pb-4 border-b border-slate-800 mb-5">
-                <div className="flex items-center gap-2">
-                  <span className="w-3 h-3 rounded-full bg-rose-500" />
-                  <span className="w-3 h-3 rounded-full bg-amber-500" />
-                  <span className="w-3 h-3 rounded-full bg-emerald-500" />
+              <div className="flex items-center justify-between pb-4 border-b border-slate-800 mb-5 gap-2">
+                <div className="flex items-center gap-2 shrink-0">
+                  <span className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-rose-500" />
+                  <span className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-amber-500" />
+                  <span className="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-emerald-500" />
                 </div>
-                <div className="text-xs font-mono text-slate-400">hub.primarycaredataservices.co.uk</div>
-                <div className="text-xs text-blue-400 font-medium">Dashboard</div>
+                <div className="text-[10px] xs:text-xs font-mono text-slate-400 truncate max-w-[130px] xs:max-w-[200px] sm:max-w-none">
+                  hub.primarycaredataservices.co.uk
+                </div>
+                <div className="text-xs text-blue-400 font-medium shrink-0">Dashboard</div>
               </div>
 
               {/* Main revenue / stats */}

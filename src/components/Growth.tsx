@@ -66,18 +66,20 @@ export default function Growth() {
             </p>
 
             {/* Channels 2-column list */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-2 gap-2.5 sm:gap-4">
               {growthServices.map((service, idx) => (
                 <div
                   key={idx}
-                  className="p-4 bg-white border border-slate-200/90 rounded-xl flex items-start gap-3.5 shadow-sm hover:border-blue-300 hover:shadow-md transition-all"
+                  className="p-3 sm:p-4 bg-white border border-slate-200/90 rounded-xl flex flex-col sm:flex-row items-start gap-2.5 sm:gap-3.5 shadow-sm hover:border-blue-300 hover:shadow-md transition-all"
                 >
-                  <div className="p-2 rounded-lg bg-blue-50 text-blue-600 shrink-0">
-                    {service.icon}
+                  <div className="p-1.5 sm:p-2 rounded-lg bg-blue-50 text-blue-600 shrink-0">
+                    <div className="scale-85 sm:scale-100 origin-top-left">
+                      {service.icon}
+                    </div>
                   </div>
                   <div>
-                    <h3 className="text-sm font-bold text-slate-900">{service.title}</h3>
-                    <p className="text-xs text-slate-500 mt-0.5 leading-snug">{service.description}</p>
+                    <h3 className="text-xs sm:text-sm font-bold text-slate-900 leading-snug">{service.title}</h3>
+                    <p className="text-[10px] sm:text-xs text-slate-500 mt-0.5 leading-tight sm:leading-snug">{service.description}</p>
                   </div>
                 </div>
               ))}
@@ -87,8 +89,8 @@ export default function Growth() {
           {/* Right Growth Analytics Card with Floating Metric */}
           <div className="lg:col-span-6 relative">
             {/* Floating Spike Badge */}
-            <div className="absolute -top-4 right-4 sm:right-8 z-20 animate-float-slow">
-              <div className="flex items-center gap-2 px-3.5 py-2 bg-emerald-600 text-white rounded-xl shadow-lg text-xs font-bold">
+            <div className="absolute -top-3.5 right-2 sm:-top-4 sm:right-8 z-20 animate-float-slow">
+              <div className="flex items-center gap-1.5 sm:gap-2 px-2.5 py-1.5 sm:px-3.5 sm:py-2 bg-emerald-600 text-white rounded-xl shadow-lg text-[11px] sm:text-xs font-bold">
                 <span className="flex h-2 w-2 relative">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75" />
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-white" />
@@ -98,7 +100,7 @@ export default function Growth() {
             </div>
 
             {/* Main Graph Card */}
-            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xl relative overflow-hidden">
+            <div className="bg-white border border-slate-200 rounded-2xl p-4 sm:p-8 shadow-xl relative overflow-hidden">
               <div className="flex items-center justify-between pb-4 border-b border-slate-100 mb-6">
                 <div>
                   <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">

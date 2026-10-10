@@ -71,20 +71,22 @@ export default function VirtualAssistance() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
           {vaServices.map((va, idx) => (
             <div
               key={idx}
-              className="p-8 bg-slate-50/70 border border-slate-200 rounded-2xl hover:bg-white hover:border-blue-300 hover:shadow-lg transition-all duration-200 group flex flex-col justify-between"
+              className="p-3.5 sm:p-8 bg-slate-50/70 border border-slate-200 rounded-xl sm:rounded-2xl hover:bg-white hover:border-blue-300 hover:shadow-lg transition-all duration-200 group flex flex-col justify-between"
             >
               <div>
-                <div className="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-sm">
-                  {va.icon}
+                <div className="w-9 h-9 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center mb-3 sm:mb-6 group-hover:scale-110 transition-transform shadow-sm">
+                  <div className="scale-75 sm:scale-100 origin-center">
+                    {va.icon}
+                  </div>
                 </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
+                <h3 className="text-xs sm:text-lg font-bold text-slate-900 mb-1 sm:mb-2 group-hover:text-blue-600 transition-colors line-clamp-2 sm:line-clamp-none">
                   {va.title}
                 </h3>
-                <p className="text-sm text-slate-600 leading-relaxed">
+                <p className="text-[10.5px] xs:text-[11px] sm:text-sm text-slate-600 leading-snug sm:leading-relaxed line-clamp-3 sm:line-clamp-none">
                   {va.description}
                 </p>
               </div>

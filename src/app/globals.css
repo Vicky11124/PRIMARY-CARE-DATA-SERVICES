@@ -22,7 +22,10 @@
   box-sizing: border-box;
 }
 
+html,
 body {
+  overflow-x: hidden;
+  max-width: 100%;
   margin: 0;
   background-color: var(--bg-light);
   color: var(--text-dark);
@@ -56,7 +59,13 @@ body {
 .container-custom {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-custom {
+    padding: 0 1.5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -117,7 +126,7 @@ body {
 }
 
 .animate-progress-fill {
-  animation: slideProgress 5s linear forwards;
+  animation: slideProgress 2.8s linear forwards;
 }
 
 .paused-animation {
