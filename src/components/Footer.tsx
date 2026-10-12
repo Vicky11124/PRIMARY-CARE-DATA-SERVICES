@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useContactModal } from "@/context/ContactModalContext";
 import { CONTACT_CONFIG } from "@/config/contactConfig";
+import { openCookiePreferencesModal } from "@/lib/analytics";
 
 export default function Footer() {
   const { openContactModal } = useContactModal();
@@ -208,6 +209,14 @@ export default function Footer() {
             >
               Privacy Notice
             </Link>
+            <span className="hidden sm:inline text-slate-700">•</span>
+            <button
+              type="button"
+              onClick={openCookiePreferencesModal}
+              className="text-slate-400 hover:text-white transition-colors underline-offset-4 hover:underline cursor-pointer"
+            >
+              Manage Cookies
+            </button>
           </div>
           <p className="font-medium text-slate-400">Built for a smarter tomorrow.</p>
         </div>

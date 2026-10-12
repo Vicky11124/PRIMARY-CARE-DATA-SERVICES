@@ -13,8 +13,11 @@ export const viewport: Viewport = {
   viewportFit: "cover",
 };
 
+import { Suspense } from "react";
 import { ContactModalProvider } from "@/context/ContactModalContext";
 import WhatsAppCTC from "@/components/WhatsAppCTC";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
+import CookieConsent from "@/components/CookieConsent";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -29,9 +32,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="antialiased bg-[#F8FAFC] text-[#0F172A] selection:bg-[#2563EB] selection:text-white">
+        <Suspense fallback={null}>
+          <GoogleAnalytics />
+        </Suspense>
         <ContactModalProvider>
           {children}
           <WhatsAppCTC />
+          <CookieConsent />
         </ContactModalProvider>
       </body>
     </html>
