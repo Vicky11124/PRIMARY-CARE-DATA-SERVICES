@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Primary Care Data Services | Healthcare, Technology, Business & Growth",
   description: "One partner for healthcare support, technology, business management, digital growth, and virtual assistance across the UK.",
-  icons: { icon: "/favicon.png", apple: "/favicon.png" },
+  icons: { icon: "/favicon.webp", apple: "/favicon.webp" },
 };
 
 export const viewport: Viewport = {

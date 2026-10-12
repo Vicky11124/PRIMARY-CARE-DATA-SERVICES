@@ -58,7 +58,7 @@ export default function Navbar({ variant = "dark" }: { variant?: "dark" | "light
             className="flex items-center gap-2 sm:gap-3 font-bold tracking-[0.08em] sm:tracking-[0.16em] text-xs sm:text-sm md:text-base uppercase group min-w-0 shrink"
           >
             <img
-              src="/images/logo-emblem.png"
+              src="/images/logo-emblem.webp"
               alt="Primary Care Data Services"
               className="h-7 sm:h-9 w-auto object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-[0_0_12px_rgba(0,229,255,0.35)] shrink-0"
             />

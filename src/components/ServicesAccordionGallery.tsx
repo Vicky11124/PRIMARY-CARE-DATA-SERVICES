@@ -18,7 +18,7 @@ const accordionItems: AccordionItem[] = [
     verticalTitle: "BUSINESS SUPPORT",
     title: "BUSINESS SUPPORT",
     description: "Business management, HR & recruitment, finance & payroll, compliance and project management.",
-    image: "/images/business-support.jpg",
+    image: "/images/business-support.webp",
     slug: "business-management",
   },
   {
@@ -34,7 +34,7 @@ const accordionItems: AccordionItem[] = [
     verticalTitle: "TECHNOLOGY & SOFTWARE",
     title: "TECHNOLOGY & SOFTWARE",
     description: "Website development, custom software, CRM systems, business automation and UI/UX.",
-    image: "/images/technology-software.jpg",
+    image: "/images/technology-software.webp",
     slug: "website-development",
   },
   {
@@ -42,7 +42,7 @@ const accordionItems: AccordionItem[] = [
     verticalTitle: "DIGITAL GROWTH",
     title: "DIGITAL GROWTH",
     description: "Digital marketing, SEO, Meta Ads, Google Ads, social media and lead generation.",
-    image: "/images/digital-marketing.jpg",
+    image: "/images/digital-marketing.webp",
     slug: "digital-marketing",
   },
   {
@@ -50,7 +50,7 @@ const accordionItems: AccordionItem[] = [
     verticalTitle: "VIRTUAL ASSISTANCE",
     title: "VIRTUAL ASSISTANCE",
     description: "Administrative support, customer support, scheduling, email management and data management.",
-    image: "/images/virtual-assistance.jpg",
+    image: "/images/virtual-assistance.webp",
     slug: "virtual-assistance",
   },
   {

@@ -88,16 +88,7 @@ export default function Growth() {
 
           {/* Right Growth Analytics Card with Floating Metric */}
           <div className="lg:col-span-6 relative">
-            {/* Floating Spike Badge */}
-            <div className="absolute -top-3.5 right-2 sm:-top-4 sm:right-8 z-20 animate-float-slow">
-              <div className="flex items-center gap-1.5 sm:gap-2 px-2.5 py-1.5 sm:px-3.5 sm:py-2 bg-emerald-600 text-white rounded-xl shadow-lg text-[11px] sm:text-xs font-bold">
-                <span className="flex h-2 w-2 relative">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75" />
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-white" />
-                </span>
-                <span>+1234% Growth Spike</span>
-              </div>
-            </div>
+
 
             {/* Main Graph Card */}
             <div className="bg-white border border-slate-200 rounded-2xl p-4 sm:p-8 shadow-xl relative overflow-hidden">

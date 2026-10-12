@@ -580,8 +580,8 @@ export const servicesData: Record<string, ServicePageData> = {
     heroPreviewTitle: "Dedicated Virtual Operations & Task Management",
     heroStrip: [
       {
-        title: "UK Aligned",
-        subtitle: "Business Hours & Native English",
+        title: "24/7 Aligned",
+        subtitle: "24/7 Availability & Native English",
         icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
       },
       {
@@ -716,7 +716,7 @@ export const servicesData: Record<string, ServicePageData> = {
       {
         question: "What working hours do the assistants cover?",
         answer:
-          "Our assistants operate during standard UK business hours (9:00 AM – 5:30 PM GMT), with options for extended evening or weekend coverage if required.",
+          "Our assistants operate with 24/7 coverage, providing round-the-clock availability or flexible custom shifts to support your business at any time.",
       },
       {
         question: "Can I scale my hours up or down?",

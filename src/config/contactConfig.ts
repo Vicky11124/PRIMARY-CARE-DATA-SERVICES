@@ -19,7 +19,11 @@ export const CONTACT_CONFIG = {
   whatsappFormatted: "+44 7387 500109",
 
   // Official email address for enquiries
-  emailAddress: "contact@primarycaredataservices.co.uk",
+  emailAddress: "Admin@primarycaredataservices.co.uk",
+
+  // Working Hours & Support Availability
+  workingHours: "24/7 Support & Availability",
+  workingHoursSubtitle: "Available 24 hours a day, 7 days a week",
 
   // Company branding name used in auto-drafted messages
   companyName: "Primary Care Data Services",

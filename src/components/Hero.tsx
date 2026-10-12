@@ -108,7 +108,7 @@ export default function Hero() {
           {/* Soft dark radial backdrop to completely mask all tips of the watermark */}
           <div className="absolute inset-[-20px] bg-[#080E1E] rounded-full blur-[10px]" />
           <img
-            src="/images/logo-emblem.png"
+            src="/images/logo-emblem.webp"
             alt="Primary Care Data Services"
             className="relative z-10 md:w-[90px] md:h-[90px] lg:w-[96px] lg:h-[96px] object-contain drop-shadow-[0_0_20px_rgba(0,229,255,0.7)]"
           />

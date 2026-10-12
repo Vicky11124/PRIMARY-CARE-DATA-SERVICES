@@ -17,7 +17,7 @@ const serviceCards: ServiceCard[] = [
     title: "Business Support",
     description:
       "Business management, HR & recruitment, finance & payroll, compliance and project management.",
-    image: "/images/business-support.jpg",
+    image: "/images/business-support.webp",
     href: "/services?tab=business",
     icon: (
       <svg className="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -55,7 +55,7 @@ const serviceCards: ServiceCard[] = [
     title: "Technology & Software",
     description:
       "Website development, custom software, CRM systems, business automation and UI/UX.",
-    image: "/images/technology-software.jpg",
+    image: "/images/technology-software.webp",
     href: "/services?tab=technology",
     icon: (
       <svg className="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -74,7 +74,7 @@ const serviceCards: ServiceCard[] = [
     title: "Digital Growth",
     description:
       "Digital marketing, SEO, Meta Ads, Google Ads, social media and lead generation.",
-    image: "/images/digital-marketing.jpg",
+    image: "/images/digital-marketing.webp",
     href: "/services?tab=growth",
     icon: (
       <svg className="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -93,7 +93,7 @@ const serviceCards: ServiceCard[] = [
     title: "Virtual Assistance",
     description:
       "Administrative support, customer support, scheduling, email management, data management and back-office support.",
-    image: "/images/virtual-assistance.jpg",
+    image: "/images/virtual-assistance.webp",
     href: "/services?tab=virtual",
     icon: (
       <svg className="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">

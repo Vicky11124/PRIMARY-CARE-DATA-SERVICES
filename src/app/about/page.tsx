@@ -29,7 +29,7 @@ const corePillars = [
   {
     title: "UK Regulated & Aligned",
     description:
-      "Fully compliant with UK data privacy (GDPR), CQC regulatory standards, and London business working hours.",
+      "Fully compliant with UK data privacy (GDPR), CQC regulatory standards, and 24/7 operational support.",
   },
   {
     title: "Dedicated Account Specialists",

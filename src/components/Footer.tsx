@@ -17,7 +17,7 @@ export default function Footer() {
               className="flex items-center gap-3.5 group mb-5"
             >
               <img
-                src="/images/logo-emblem.png"
+                src="/images/logo-emblem.webp"
                 alt="Primary Care Data Services"
                 className="h-10 w-auto object-contain drop-shadow-[0_0_15px_rgba(0,229,255,0.4)] group-hover:scale-105 transition-transform duration-300"
               />
@@ -199,7 +199,16 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>© 2026 Primary Care Data Services. All rights reserved.</p>
+          <div className="flex flex-wrap items-center gap-4 sm:gap-6">
+            <p>© 2026 Primary Care Data Services. All rights reserved.</p>
+            <span className="hidden sm:inline text-slate-700">•</span>
+            <Link
+              href="/privacy-notice"
+              className="text-slate-400 hover:text-white transition-colors underline-offset-4 hover:underline"
+            >
+              Privacy Notice
+            </Link>
+          </div>
           <p className="font-medium text-slate-400">Built for a smarter tomorrow.</p>
         </div>
       </div>

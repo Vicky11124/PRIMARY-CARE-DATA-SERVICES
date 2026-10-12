@@ -152,7 +152,7 @@ export default function ConnectedSolutions() {
           <g transform="translate(450, 310)">
             {/* Emblem Image */}
             <image
-              href="/images/logo-emblem.png"
+              href="/images/logo-emblem.webp"
               x="-20"
               y="-66"
               width="40"

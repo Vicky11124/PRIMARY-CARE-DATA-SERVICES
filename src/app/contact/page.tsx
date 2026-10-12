@@ -83,7 +83,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-blue-400" />
-                  <span>UK Business Hours</span>
+                  <span>24/7 Availability</span>
                 </div>
               </div>
             </div>
@@ -353,8 +353,8 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <div className="text-xs text-slate-400 uppercase tracking-wider">Working Hours</div>
-                        <div className="font-bold text-white">Mon – Fri: 08:30 – 17:30 UK Time</div>
-                        <div className="text-xs text-slate-400">Excluding UK Bank Holidays</div>
+                        <div className="font-bold text-white">24/7 Support & Availability</div>
+                        <div className="text-xs text-slate-400">Available 24 hours a day, 7 days a week</div>
                       </div>
                     </div>
                   </div>

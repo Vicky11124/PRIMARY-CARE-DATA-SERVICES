@@ -15,9 +15,12 @@
 /build
 /dist
 
-# misc
+# misc & OS
 .DS_Store
 Thumbs.db
+Desktop.ini
+ehthumbs.db
+ehthumbs_vista.db
 *.pem
 
 # debug logs
@@ -40,7 +43,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# IDE / Editor configs
+# IDE / Editor & Agent configs
 .vscode/
 .idea/
 *.suo
@@ -50,3 +53,5 @@ next-env.d.ts
 *.sw?
 .agents/
 .cursor/
+.gemini/
+.antigravity/
