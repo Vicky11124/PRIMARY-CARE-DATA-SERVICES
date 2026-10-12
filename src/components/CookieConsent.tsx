@@ -66,53 +66,45 @@ export default function CookieConsent() {
   return (
     <>
       {/* ==================================================
-          01. BOTTOM COOKIE BANNER (Initial prompt)
+          01. BOTTOM COOKIE BANNER (Simplified Friendly)
           ================================================== */}
       {showBanner && !showModal && (
         <div
           role="region"
           aria-label="Cookie consent banner"
-          className="fixed bottom-0 inset-x-0 z-50 p-4 sm:p-6 bg-[#080E1E]/95 backdrop-blur-md border-t border-slate-800 shadow-2xl text-white transition-all duration-300"
+          className="fixed bottom-0 inset-x-0 z-50 p-4 sm:p-5 bg-[#080E1E]/95 backdrop-blur-md border-t border-slate-800 shadow-2xl text-white transition-all duration-300"
         >
           <div className="container-custom max-w-6xl">
-            <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-5 sm:gap-6">
+            <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 sm:gap-6">
               {/* Text Description */}
-              <div className="space-y-2 max-w-3xl">
-                <div className="flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse" />
-                  <span className="text-xs font-bold uppercase tracking-wider text-blue-400">
-                    Cookie & Privacy Notice
-                  </span>
-                </div>
-                <h3 className="text-base sm:text-lg font-bold text-white">
-                  We respect your privacy and give you control over cookies.
+              <div className="max-w-2xl">
+                <h3 className="text-base sm:text-lg font-bold text-white mb-1">
+                  Your Privacy Matters
                 </h3>
-                <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                  We use essential cookies to maintain website performance and security. With your consent, we also use Google Analytics 4 ({GA_MEASUREMENT_ID}) cookies to understand visitor interactions and improve our services. Analytics cookies are never loaded without your permission.
+                <p className="text-xs sm:text-sm text-slate-300 leading-relaxed mb-2">
+                  We use essential cookies to keep our website working. With your permission, we also use Google Analytics to understand how people use our website and improve it.
                 </p>
-                <div className="text-xs text-slate-400 flex flex-wrap items-center gap-3 pt-1">
+                <div>
                   <Link
                     href="/privacy-notice#section-11"
-                    className="text-blue-400 hover:text-blue-300 hover:underline transition-colors font-medium inline-flex items-center gap-1"
+                    className="text-xs text-blue-400 hover:text-blue-300 hover:underline transition-colors font-medium inline-flex items-center gap-1"
                   >
-                    <span>Read Cookie Policy (Section 11)</span>
+                    <span>Read our Cookie Policy</span>
                     <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                   </Link>
-                  <span>•</span>
-                  <span>Non-essential cookies blocked by default</span>
                 </div>
               </div>
 
               {/* Action Buttons */}
-              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 sm:gap-3 shrink-0">
+              <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 shrink-0">
                 <button
                   type="button"
                   onClick={handleAcceptAll}
                   className="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs sm:text-sm shadow-md shadow-blue-600/30 transition-all duration-200 text-center"
                 >
-                  Accept Analytics
+                  Accept All
                 </button>
 
                 <button
@@ -120,15 +112,15 @@ export default function CookieConsent() {
                   onClick={handleRejectAll}
                   className="px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-700 font-semibold text-xs sm:text-sm transition-all duration-200 text-center"
                 >
-                  Reject Analytics
+                  Reject Optional Cookies
                 </button>
 
                 <button
                   type="button"
                   onClick={() => setShowModal(true)}
-                  className="px-4 py-2.5 rounded-xl bg-slate-800/60 hover:bg-slate-700/80 text-slate-300 font-medium text-xs sm:text-sm transition-all duration-200 text-center underline-offset-4 hover:underline"
+                  className="px-4 py-2.5 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700/60 font-semibold text-xs sm:text-sm transition-all duration-200 text-center"
                 >
-                  Manage Preferences
+                  Cookie Settings
                 </button>
               </div>
             </div>
@@ -258,7 +250,7 @@ export default function CookieConsent() {
                 onClick={handleRejectAll}
                 className="w-full sm:w-auto px-4 py-2.5 rounded-xl text-slate-300 hover:text-white hover:bg-slate-800 text-xs font-semibold transition-colors text-center"
               >
-                Reject All Non-Essential
+                Reject Optional Cookies
               </button>
 
               <div className="flex items-center gap-3 w-full sm:w-auto">
