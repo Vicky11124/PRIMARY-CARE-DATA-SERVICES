@@ -353,6 +353,25 @@ function ServicesContent() {
                 </button>
               ))}
             </div>
+
+            {/* Direct Division Portals */}
+            <div className="flex flex-wrap items-center justify-center gap-3 pt-5 border-t border-slate-800/80 mt-6 w-full max-w-lg">
+              <span className="text-xs text-slate-400">Dedicated Divisions:</span>
+              <Link
+                href="/healthcare-services"
+                className="text-xs font-semibold px-3.5 py-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 hover:bg-emerald-500 hover:text-slate-950 transition-colors inline-flex items-center gap-1.5"
+              >
+                <span>Healthcare Services</span>
+                <span>→</span>
+              </Link>
+              <Link
+                href="/technology-services"
+                className="text-xs font-semibold px-3.5 py-1.5 rounded-lg bg-blue-500/10 border border-blue-500/30 text-blue-400 hover:bg-blue-600 hover:text-white transition-colors inline-flex items-center gap-1.5"
+              >
+                <span>Technology Services</span>
+                <span>→</span>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

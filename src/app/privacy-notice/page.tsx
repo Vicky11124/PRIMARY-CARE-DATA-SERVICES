@@ -193,8 +193,8 @@ export default function PrivacyNoticePage() {
                   </div>
                   <div>
                     <div className="text-[11px] text-slate-500 mb-0.5">Telephone</div>
-                    <a href="tel:07387500109" className="text-slate-800 font-semibold hover:text-blue-600">
-                      07387 500109
+                    <a href="tel:+447387500109" className="text-slate-800 font-semibold hover:text-blue-600">
+                      +44 7387 500109
                     </a>
                   </div>
                   <div>
@@ -292,8 +292,8 @@ export default function PrivacyNoticePage() {
                         <span className="text-blue-600 font-bold">•</span>
                         <span>
                           <strong>Telephone:</strong>{" "}
-                          <a href="tel:07387500109" className="text-blue-600 hover:underline">
-                            07387 500109
+                          <a href="tel:+447387500109" className="text-blue-600 hover:underline">
+                            +44 7387 500109
                           </a>
                         </span>
                       </li>
@@ -893,8 +893,8 @@ export default function PrivacyNoticePage() {
                       </div>
                       <div>
                         <span className="text-slate-500 font-medium">Telephone: </span>
-                        <a href="tel:07387500109" className="text-slate-800 font-bold hover:text-blue-600">
-                          07387 500109
+                        <a href="tel:+447387500109" className="text-slate-800 font-bold hover:text-blue-600">
+                          +44 7387 500109
                         </a>
                       </div>
                       <div>

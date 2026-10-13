@@ -304,7 +304,7 @@ export default function ContactPage() {
                           rel="noopener noreferrer"
                           className="font-bold text-white hover:text-emerald-400 transition-colors"
                         >
-                          {CONTACT_CONFIG.phoneNumber}
+                          {CONTACT_CONFIG.whatsappFormatted}
                         </a>
                       </div>
                     </div>

@@ -77,28 +77,28 @@ export default function Footer() {
               </h4>
               <ul className="space-y-2.5 text-sm">
                 <li>
+                  <Link href="/healthcare-services" className="hover:text-emerald-400 transition-colors font-medium">
+                    Healthcare Services
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/technology-services" className="hover:text-blue-400 transition-colors font-medium">
+                    Technology Services
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/services" className="hover:text-blue-400 transition-colors">
+                    All Services Overview
+                  </Link>
+                </li>
+                <li>
                   <Link href="/services?tab=business" className="hover:text-blue-400 transition-colors">
                     Business Solutions
                   </Link>
                 </li>
                 <li>
-                  <Link href="/services?tab=healthcare" className="hover:text-blue-400 transition-colors">
-                    Healthcare Support
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services?tab=technology" className="hover:text-blue-400 transition-colors">
-                    Technology & Software
-                  </Link>
-                </li>
-                <li>
                   <Link href="/services?tab=growth" className="hover:text-blue-400 transition-colors">
                     Digital Growth
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/services?tab=virtual" className="hover:text-blue-400 transition-colors">
-                    Virtual Assistance
                   </Link>
                 </li>
               </ul>

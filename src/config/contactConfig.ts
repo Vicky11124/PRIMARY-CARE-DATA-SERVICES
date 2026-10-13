@@ -9,10 +9,10 @@ export const CONTACT_CONFIG = {
   postcode: "CR0 2EN",
   fullAddress: "13 Clarence Road, CR0 2EN",
 
-  // Official UK Direct Phone Number
-  phoneNumber: "07387500109",
-  phoneFormatted: "07387 500109",
-  phoneTel: "tel:07387500109",
+  // Official UK Direct Phone Number & WhatsApp
+  phoneNumber: "+44 7387 500109",
+  phoneFormatted: "+44 7387 500109",
+  phoneTel: "tel:+447387500109",
 
   // WhatsApp number with country code (no '+' symbol, no spaces or hyphens)
   whatsappNumber: "447387500109",
