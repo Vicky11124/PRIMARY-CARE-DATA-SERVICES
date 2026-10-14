@@ -39,16 +39,16 @@ export default function ServiceCard({
         {/* Card Content */}
         <div className="relative z-10">
           <div className="mb-4">
-            <div className="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-[#00E5FF] group-hover:scale-105 transition-transform duration-300 ease-out">
+            <div className="w-12 h-12 rounded-xl bg-[#09152b] border border-blue-500/20 group-hover:border-[#00E5FF]/40 flex items-center justify-center text-[#00E5FF] group-hover:scale-105 transition-all duration-300 ease-out shadow-inner">
               {service.icon}
             </div>
           </div>
 
-          <span className="text-[10px] font-bold uppercase tracking-wider text-[#00E5FF] font-mono block mb-1.5">
+          <span className="text-[11px] font-bold uppercase tracking-wider text-[#00E5FF] font-mono block mb-2">
             {service.badge}
           </span>
 
-          <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#00E5FF] transition-colors duration-300">
+          <h3 className="text-xl sm:text-[22px] font-bold text-white mb-3 group-hover:text-[#00E5FF] transition-colors duration-300 leading-snug">
             {service.title}
           </h3>
 
@@ -56,9 +56,9 @@ export default function ServiceCard({
             {service.description}
           </p>
 
-          <div className="space-y-2 border-t border-slate-800/80 pt-4 mb-6">
+          <div className="space-y-2.5 mb-8">
             {service.features.map((feature, idx) => (
-              <div key={idx} className="flex items-start gap-2 text-xs text-slate-300">
+              <div key={idx} className="flex items-start gap-2.5 text-xs sm:text-[13px] text-slate-300">
                 <svg
                   className="w-3.5 h-3.5 text-[#00E5FF] mt-0.5 shrink-0"
                   fill="none"
@@ -67,7 +67,7 @@ export default function ServiceCard({
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>{feature}</span>
+                <span className="leading-snug">{feature}</span>
               </div>
             ))}
           </div>
@@ -77,11 +77,11 @@ export default function ServiceCard({
         <div className="relative z-10 pt-2">
           <Link
             href={`/contact?service=${encodeURIComponent(service.title)}`}
-            className="service-card-cta inline-flex items-center justify-between w-full px-4 py-2.5 rounded-xl bg-slate-900/80 hover:!bg-blue-600 hover:!text-white text-slate-200 border border-slate-700/80 font-semibold text-xs transition-all duration-300 ease-out"
+            className="service-card-cta inline-flex items-center justify-between w-full px-4 py-3 rounded-xl text-slate-200 font-semibold text-xs transition-all duration-300 ease-out"
           >
             <span>{ctaText}</span>
             <svg
-              className="service-card-cta-arrow w-3.5 h-3.5 text-[#00E5FF] group-hover:text-[#00E5FF] transition-all duration-300 ease-out shrink-0"
+              className="service-card-cta-arrow w-3.5 h-3.5 text-[#00E5FF] transition-all duration-300 ease-out shrink-0"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"

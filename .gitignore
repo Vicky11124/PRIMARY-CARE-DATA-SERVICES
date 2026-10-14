@@ -56,5 +56,6 @@ next-env.d.ts
 .gemini/
 .antigravity/
 
-# Raw / duplicate hero assets (keep only optimised .jpg versions)
-public/images/technology-hero-bg.png
+# Temporary / Scratch files
+*.tmp
+*.bak

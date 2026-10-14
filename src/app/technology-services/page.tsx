@@ -190,7 +190,7 @@ export default function TechnologyServicesPage() {
           {/* 1. Actual Hero Background Image Asset (4K Upscaled Crystal-Clear Quality) */}
           <div className="absolute inset-0 w-full h-full pointer-events-none z-0 overflow-hidden">
             <Image
-              src="/images/technology-hero-bg.jpg"
+              src="/images/technology-hero-bg.webp"
               alt="Technology & Digital Infrastructure"
               fill
               priority

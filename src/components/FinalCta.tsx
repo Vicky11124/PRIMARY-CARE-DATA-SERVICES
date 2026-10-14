@@ -15,18 +15,18 @@ export default function FinalCta() {
       <div className="container-custom relative z-10">
         <div className="max-w-3xl">
           <div className="section-tag section-tag-dark">
-            <span>LET&apos;S WORK TOGETHER</span>
+            <span>DISCUSS YOUR REQUIREMENTS</span>
           </div>
 
           <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1] mb-6">
-            Have a Challenge? <br />
+            Healthcare or Technology —{" "}<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">
-              Let&apos;s Find the Solution.
+              Let&apos;s Find the Right Solution.
             </span>
           </h2>
 
           <p className="text-base sm:text-lg text-slate-300 max-w-2xl font-normal leading-relaxed mb-10">
-            Tell us what is slowing your organisation down. We&apos;ll help you identify the right people, processes and technology to move forward.
+            Whether you need to streamline practice administration or build a digital system, tell us what your organisation needs and we&apos;ll help you move forward.
           </p>
 
           <div className="flex flex-wrap items-center gap-4">
@@ -46,12 +46,12 @@ export default function FinalCta() {
             </button>
 
             <Link
-              href="/services"
+              href="/healthcare-services"
               className="specular-button-secondary group"
             >
               <span className="specular-beam-secondary animate-beam-spin" />
               <span className="specular-inner-secondary">
-                <span>Explore Services</span>
+                <span>View Healthcare Services</span>
               </span>
             </Link>
           </div>

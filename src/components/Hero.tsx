@@ -1,10 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useContactModal } from "@/context/ContactModalContext";
 
 export default function Hero() {
-  const { openContactModal } = useContactModal();
 
   return (
     <section className="relative py-20 sm:py-24 md:py-32 lg:py-36 bg-[#080E1E] text-white overflow-hidden isolate" id="top">
@@ -51,29 +49,28 @@ export default function Hero() {
           {/* Action Buttons with Specular Beam Design (Entrance 4) */}
           <div className="animate-hero-fade-4 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-5 mb-12 w-full sm:w-auto">
             <Link
-              href="/services"
+              href="/healthcare-services"
               className="specular-button w-full sm:w-auto group text-sm sm:text-base"
             >
               <span className="specular-beam animate-beam-spin" />
               <span className="specular-inner w-full justify-center px-6 sm:px-8 py-3.5 sm:py-4">
                 <span className="specular-shimmer-highlight animate-beam-shimmer" />
-                <span>Explore Services</span>
+                <span>Healthcare Services</span>
                 <svg className="w-4 h-4 text-[#00E5FF] group-hover:translate-x-0.5 transition-transform shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
               </span>
             </Link>
 
-            <button
-              type="button"
-              onClick={() => openContactModal()}
+            <Link
+              href="/technology-services"
               className="specular-button-secondary w-full sm:w-auto group text-sm sm:text-base"
             >
               <span className="specular-beam-secondary animate-beam-spin" />
               <span className="specular-inner-secondary w-full justify-center px-6 sm:px-8 py-3.5 sm:py-4">
-                <span>Talk to Our Team</span>
+                <span>Technology Services →</span>
               </span>
-            </button>
+            </Link>
           </div>
 
           {/* Social Proof / Avatars (Entrance 5) - Proportional presence and spacing */}
@@ -103,14 +100,14 @@ export default function Hero() {
       </div>
 
       {/* 4. Natural Brand Logo Emblem directly covering the video watermark (Hidden on mobile viewport) */}
-      <div className="hidden md:block absolute md:bottom-[6.1rem] lg:bottom-[7.0rem] md:right-[3.2rem] lg:right-[4.2rem] xl:right-[6.0rem] z-10 pointer-events-none">
+      <div className="hidden md:block absolute md:bottom-[5.2rem] lg:bottom-[5.8rem] md:right-[1.4rem] lg:right-[1.8rem] xl:right-[2.2rem] z-10 pointer-events-none">
         <div className="relative flex items-center justify-center">
           {/* Soft dark radial backdrop to completely mask all tips of the watermark */}
-          <div className="absolute inset-[-20px] bg-[#080E1E] rounded-full blur-[10px]" />
+          <div className="absolute inset-[-30px] bg-[#080E1E] rounded-full blur-[14px]" />
           <img
             src="/images/logo-emblem.webp"
             alt="Primary Care Data Services"
-            className="relative z-10 md:w-[90px] md:h-[90px] lg:w-[96px] lg:h-[96px] object-contain drop-shadow-[0_0_20px_rgba(0,229,255,0.7)]"
+            className="relative z-10 md:w-[94px] md:h-[94px] lg:w-[102px] lg:h-[102px] object-contain drop-shadow-[0_0_20px_rgba(0,229,255,0.7)]"
           />
         </div>
       </div>
