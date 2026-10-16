@@ -60,8 +60,8 @@ const articlesData: Article[] = [
     image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=800&q=80",
   },
   {
-    id: "cqc-compliance-readiness",
-    title: "Clinical Records Digitisation & CQC Evidence Preparation",
+    id: "clinical-audit-readiness",
+    title: "Clinical Records Digitisation & Audit Evidence Preparation",
     category: "Healthcare Operations",
     readTime: "5 min read",
     summary:

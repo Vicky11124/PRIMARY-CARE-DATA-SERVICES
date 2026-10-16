@@ -35,7 +35,7 @@ export const CONTACT_CONFIG = {
       services: [
         "Practice Management",
         "Clinical Governance",
-        "CQC Support & Audits",
+        "Clinical Audit & Compliance Support",
         "Medical Records Digitisation",
         "Workforce & Locum Optimisation",
       ],

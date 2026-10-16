@@ -3,6 +3,8 @@ import { servicesData } from "@/data/servicesData";
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.primarycaredataservices.co.uk";
 
+// Dynamic sitemap generation for Primary Care Data Services
+// Includes all primary, sector, services, and dynamic healthcare/tech routes
 export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date();
 

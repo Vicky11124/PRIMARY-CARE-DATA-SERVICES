@@ -25,7 +25,7 @@ const accordionItems: AccordionItem[] = [
     id: "healthcare",
     verticalTitle: "HEALTHCARE SUPPORT",
     title: "HEALTHCARE SUPPORT",
-    description: "Practice management, summarising & digitisation of records, clinical governance, CQC compliance and clinical coding.",
+    description: "Practice management, summarising & digitisation of records, clinical governance, audit support and clinical coding.",
     image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80",
     slug: "healthcare-support",
   },

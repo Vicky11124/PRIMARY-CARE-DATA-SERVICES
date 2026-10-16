@@ -5,7 +5,7 @@ const caseStudies = [
     title: "Healthcare Practice",
     category: "DEMO CASE STUDY",
     metric: "35% reduction in administrative workload",
-    description: "Practice workflow redesign, digital records migration, and CQC compliance automation.",
+    description: "Practice workflow redesign, digital records migration, and clinical governance automation.",
     image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=700&q=80",
     href: "/#contact",
   },

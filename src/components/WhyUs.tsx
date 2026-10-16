@@ -17,7 +17,7 @@ const advantages = [
   },
   {
     title: "UK Regulated & Focused",
-    description: "Fully aligned with UK standards, GDPR, CQC frameworks, and 24/7 operational support.",
+    description: "Fully aligned with UK standards, GDPR, NHS information governance, and 24/7 operational support.",
   },
   {
     title: "Long-Term Partnership",

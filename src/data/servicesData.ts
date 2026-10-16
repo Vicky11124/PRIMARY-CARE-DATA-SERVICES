@@ -737,14 +737,14 @@ export const servicesData: Record<string, ServicePageData> = {
     heroHeadline: "Clinical Governance & Operational Support Built for",
     heroHeadlineHighlight: "Modern Healthcare Providers.",
     heroDescription:
-      "We provide practice management, CQC compliance frameworks, medical records digitisation, and workforce solutions for UK healthcare organisations.",
+      "We provide practice management, clinical governance frameworks, medical records digitisation, and workforce solutions for UK healthcare organisations.",
     heroImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80",
     heroPreviewBadge: "NHS / Private Clinical Ops",
-    heroPreviewTitle: "CQC Ready Practice Governance & Record Systems",
+    heroPreviewTitle: "Audit Ready Practice Governance & Record Systems",
     heroStrip: [
       {
-        title: "CQC Compliant",
-        subtitle: "Audit Ready Governance",
+        title: "Audit Ready",
+        subtitle: "Clinical Governance Standards",
         icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
       },
       {
@@ -778,8 +778,8 @@ export const servicesData: Record<string, ServicePageData> = {
         icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
       },
       {
-        title: "CQC Inspection Preparation",
-        description: "Evidence packaging, mock inspections, action plan remediation, and ongoing compliance.",
+        title: "Practice Audit Preparation",
+        description: "Evidence packaging, mock practice audits, action plan remediation, and ongoing regulatory compliance.",
         icon: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4",
       },
       {
@@ -801,10 +801,10 @@ export const servicesData: Record<string, ServicePageData> = {
     overviewHeading: "Healthcare Support That",
     overviewHeadingHighlight: "Guarantees Compliance.",
     overviewDescription:
-      "Modern healthcare regulation demands perfection. We provide experienced NHS and private sector managers who ensure your clinics operate at peak efficiency while exceeding CQC inspection standards.",
+      "Modern healthcare regulation demands perfection. We provide experienced NHS and private sector managers who ensure your clinics operate at peak efficiency while exceeding UK clinical practice standards.",
     overviewImage: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
     overviewBenefits: [
-      "Achieve 'Good' and 'Outstanding' CQC inspection ratings",
+      "Achieve robust clinical governance and regulatory audit readiness",
       "Seamless digital transition from paper records to electronic EHR",
       "Optimise doctor and nurse rotas to eliminate locum overspend",
       "Rigorous Caldicott and Data Protection compliance",
@@ -820,7 +820,7 @@ export const servicesData: Record<string, ServicePageData> = {
       {
         step: "02",
         title: "Plan",
-        description: "Create an action matrix for CQC readiness, records digitisation, and operations.",
+        description: "Create an action matrix for audit readiness, records digitisation, and operations.",
       },
       {
         step: "03",
@@ -842,7 +842,7 @@ export const servicesData: Record<string, ServicePageData> = {
     tools: [
       { name: "EMIS Web", badge: "Clinical System" },
       { name: "SystmOne", badge: "EHR" },
-      { name: "CQC Framework", badge: "Compliance" },
+      { name: "Clinical Governance", badge: "Compliance" },
       { name: "DSPT Toolkit", badge: "Governance" },
       { name: "Clarity Rota", badge: "Workforce" },
       { name: "Accurx", badge: "Comms" },
@@ -850,9 +850,9 @@ export const servicesData: Record<string, ServicePageData> = {
     caseStudies: [
       {
         tag: "Primary Care",
-        title: "Multi-site GP Practice Rota & CQC Overhaul",
+        title: "Multi-site GP Practice Rota & Compliance Overhaul",
         image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=80",
-        metric1: { value: "Outstanding", label: "CQC Rating" },
+        metric1: { value: "100%", label: "Audit Readiness" },
         metric2: { value: "-35%", label: "Admin Workload" },
       },
       {
@@ -872,9 +872,9 @@ export const servicesData: Record<string, ServicePageData> = {
     ],
     faqs: [
       {
-        question: "How do you assist with upcoming CQC inspections?",
+        question: "How do you assist with healthcare compliance audits?",
         answer:
-          "We perform end-to-end mock inspections across the five key questions (Safe, Effective, Caring, Responsive, Well-led), organize clinical evidence, train staff, and provide on-site inspection day representation.",
+          "We perform comprehensive mock audits across key practice quality standards, organize clinical evidence, train administrative staff, and provide regulatory remediation plans.",
       },
       {
         question: "Are your healthcare specialists DBS checked?",
@@ -902,7 +902,7 @@ export const servicesData: Record<string, ServicePageData> = {
     heroDescription:
       "Transform historical paper Lloyd George files and clinic notes into structured, accurate, and 100% searchable digital records with standardised SNOMED CT clinical coding and seamless EMIS Web & SystmOne integration.",
     heroImage: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80",
-    heroPreviewBadge: "NHS / CQC Aligned",
+    heroPreviewBadge: "NHS / Caldicott Aligned",
     heroPreviewTitle: "BS 10008 Compliant Scanning & Clinical Summaries",
     heroStrip: [
       {

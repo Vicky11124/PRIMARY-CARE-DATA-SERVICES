@@ -35,7 +35,7 @@ const serviceCards: ServiceCard[] = [
     number: "02",
     title: "Healthcare Support",
     description:
-      "Practice management, summarising & digitisation of records, clinical governance, CQC compliance and workforce optimisation.",
+      "Practice management, summarising & digitisation of records, clinical governance, regulatory compliance and workforce optimisation.",
     image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
     href: "/services?tab=healthcare",
     icon: (
