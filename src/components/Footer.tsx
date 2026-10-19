@@ -201,13 +201,25 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
           <div className="flex flex-wrap items-center gap-4 sm:gap-6">
-            <p>© 2026 Primary Care Data Services. All rights reserved.</p>
+            <p className="text-slate-400">
+              Built and maintained by{" "}
+              <span className="text-slate-200 font-semibold tracking-wide">
+                TIASOFTWARESOLUTIONS
+              </span>
+            </p>
             <span className="hidden sm:inline text-slate-700">•</span>
             <Link
               href="/privacy-notice"
               className="text-slate-400 hover:text-white transition-colors underline-offset-4 hover:underline"
             >
               Privacy Notice
+            </Link>
+            <span className="hidden sm:inline text-slate-700">•</span>
+            <Link
+              href="/terms-and-conditions"
+              className="text-slate-400 hover:text-white transition-colors underline-offset-4 hover:underline"
+            >
+              Terms & Conditions
             </Link>
             <span className="hidden sm:inline text-slate-700">•</span>
             <button
